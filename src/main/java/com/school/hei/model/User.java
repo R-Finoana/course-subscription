@@ -2,7 +2,6 @@ package com.school.hei.model;
 
 import java.util.List;
 import java.util.UUID;
-
 import lombok.*;
 
 @Data

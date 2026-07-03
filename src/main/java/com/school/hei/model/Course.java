@@ -2,7 +2,6 @@ package com.school.hei.model;
 
 import java.time.Instant;
 import java.util.UUID;
-
 import lombok.*;
 
 @Data
