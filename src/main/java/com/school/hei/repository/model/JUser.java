@@ -1,4 +1,4 @@
-package com.school.hei.repositories.model;
+package com.school.hei.repository.model;
 
 import jakarta.persistence.*;
 import java.util.List;
