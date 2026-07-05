@@ -1,8 +1,8 @@
-package com.com.school.datastructure;
+package com.school.hei.datastructure;
 
 import static java.lang.Math.min;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BiFunction;

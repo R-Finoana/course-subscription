@@ -1,9 +1,9 @@
-package com.com.school.conf;
+package com.school.hei.conf;
 
 import static java.lang.Runtime.getRuntime;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeAll;
@@ -37,7 +37,7 @@ public class FacadeIT {
     new EmailConf().configureProperties(registry);
 
     try {
-      var envConfClazz = Class.forName("com.com.school.conf.EnvConf");
+      var envConfClazz = Class.forName("com.school.hei.conf.EnvConf");
       var envConfConfigureProperties =
           envConfClazz.getDeclaredMethod("configureProperties", DynamicPropertyRegistry.class);
       var envConf = envConfClazz.getConstructor().newInstance();

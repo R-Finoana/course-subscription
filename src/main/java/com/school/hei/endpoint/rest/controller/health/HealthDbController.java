@@ -1,10 +1,10 @@
-package com.com.school.endpoint.rest.controller.health;
+package com.school.hei.endpoint.rest.controller.health;
 
-import static com.com.school.endpoint.rest.controller.health.PingController.KO;
-import static com.com.school.endpoint.rest.controller.health.PingController.OK;
+import static com.school.hei.endpoint.rest.controller.health.PingController.KO;
+import static com.school.hei.endpoint.rest.controller.health.PingController.OK;
 
-import com.com.school.PojaGenerated;
-import com.com.school.repository.DummyRepository;
+import com.school.hei.PojaGenerated;
+import com.school.hei.repository.DummyRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

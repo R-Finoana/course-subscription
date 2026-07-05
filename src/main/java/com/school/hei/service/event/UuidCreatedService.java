@@ -1,9 +1,9 @@
-package com.com.school.service.event;
+package com.school.hei.service.event;
 
-import com.com.school.PojaGenerated;
-import com.com.school.endpoint.event.model.UuidCreated;
-import com.com.school.repository.DummyUuidRepository;
-import com.com.school.repository.model.DummyUuid;
+import com.school.hei.PojaGenerated;
+import com.school.hei.endpoint.event.model.UuidCreated;
+import com.school.hei.repository.DummyUuidRepository;
+import com.school.hei.repository.model.DummyUuid;
 import java.util.function.Consumer;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,9 +1,9 @@
-package com.com.school.service.event;
+package com.school.hei.service.event;
 
 import static java.lang.Thread.sleep;
 
-import com.com.school.PojaGenerated;
-import com.com.school.endpoint.event.model.DurablyFallibleUuidCreated1;
+import com.school.hei.PojaGenerated;
+import com.school.hei.endpoint.event.model.DurablyFallibleUuidCreated1;
 import java.util.function.Consumer;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;

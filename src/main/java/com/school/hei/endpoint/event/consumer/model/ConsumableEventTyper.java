@@ -1,13 +1,13 @@
-package com.com.school.endpoint.event.consumer.model;
+package com.school.hei.endpoint.event.consumer.model;
 
 import static java.lang.Integer.parseInt;
 
 import com.amazonaws.services.lambda.runtime.events.SQSEvent.SQSMessage;
-import com.com.school.PojaGenerated;
-import com.com.school.endpoint.event.EventConf;
-import com.com.school.endpoint.event.model.PojaEvent;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.school.hei.PojaGenerated;
+import com.school.hei.endpoint.event.EventConf;
+import com.school.hei.endpoint.event.model.PojaEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

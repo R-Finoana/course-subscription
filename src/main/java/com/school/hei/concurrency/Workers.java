@@ -1,11 +1,11 @@
-package com.com.school.concurrency;
+package com.school.hei.concurrency;
 
-import static com.com.school.concurrency.ThreadRenamer.getRandomSubThreadNamePrefixFrom;
-import static com.com.school.concurrency.ThreadRenamer.renameThread;
+import static com.school.hei.concurrency.ThreadRenamer.getRandomSubThreadNamePrefixFrom;
+import static com.school.hei.concurrency.ThreadRenamer.renameThread;
 import static java.lang.Thread.currentThread;
 import static java.util.concurrent.Executors.newVirtualThreadPerTaskExecutor;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

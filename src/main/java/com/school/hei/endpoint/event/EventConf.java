@@ -1,6 +1,6 @@
-package com.com.school.endpoint.event;
+package com.school.hei.endpoint.event;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

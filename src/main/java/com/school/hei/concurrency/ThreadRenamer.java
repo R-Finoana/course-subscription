@@ -1,6 +1,6 @@
-package com.com.school.concurrency;
+package com.school.hei.concurrency;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import java.util.UUID;
 import lombok.extern.slf4j.Slf4j;
 

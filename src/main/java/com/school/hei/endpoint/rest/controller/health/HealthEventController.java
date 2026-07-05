@@ -1,15 +1,15 @@
-package com.com.school.endpoint.rest.controller.health;
+package com.school.hei.endpoint.rest.controller.health;
 
-import static com.com.school.endpoint.rest.controller.health.PingController.KO;
-import static com.com.school.endpoint.rest.controller.health.PingController.OK;
+import static com.school.hei.endpoint.rest.controller.health.PingController.KO;
+import static com.school.hei.endpoint.rest.controller.health.PingController.OK;
 import static java.util.UUID.randomUUID;
 
-import com.com.school.PojaGenerated;
-import com.com.school.endpoint.event.EventProducer;
-import com.com.school.endpoint.event.model.DurablyFallibleUuidCreated1;
-import com.com.school.endpoint.event.model.UuidCreated;
-import com.com.school.repository.DummyUuidRepository;
-import com.com.school.repository.model.DummyUuid;
+import com.school.hei.PojaGenerated;
+import com.school.hei.endpoint.event.EventProducer;
+import com.school.hei.endpoint.event.model.DurablyFallibleUuidCreated1;
+import com.school.hei.endpoint.event.model.UuidCreated;
+import com.school.hei.repository.DummyUuidRepository;
+import com.school.hei.repository.model.DummyUuid;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.AllArgsConstructor;

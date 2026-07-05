@@ -1,4 +1,4 @@
-package com.com.school.handler;
+package com.school.hei.handler;
 
 import com.amazonaws.serverless.exceptions.ContainerInitializationException;
 import com.amazonaws.serverless.proxy.model.AwsProxyResponse;
@@ -6,8 +6,8 @@ import com.amazonaws.serverless.proxy.model.HttpApiV2ProxyRequest;
 import com.amazonaws.serverless.proxy.spring.SpringBootLambdaContainerHandler;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestStreamHandler;
-import com.com.school.PojaApplication;
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaApplication;
+import com.school.hei.PojaGenerated;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;

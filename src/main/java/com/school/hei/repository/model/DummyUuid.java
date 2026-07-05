@@ -1,6 +1,6 @@
-package com.com.school.repository.model;
+package com.school.hei.repository.model;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Getter;

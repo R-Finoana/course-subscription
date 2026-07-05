@@ -1,7 +1,7 @@
-package com.com.school.endpoint.event.model;
+package com.school.hei.endpoint.event.model;
 
-import com.com.school.PojaGenerated;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.school.hei.PojaGenerated;
 import java.time.Duration;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

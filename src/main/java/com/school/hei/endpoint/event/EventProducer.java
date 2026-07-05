@@ -1,10 +1,10 @@
-package com.com.school.endpoint.event;
+package com.school.hei.endpoint.event;
 
-import com.com.school.PojaGenerated;
-import com.com.school.datastructure.ListGrouper;
-import com.com.school.endpoint.event.model.PojaEvent;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.school.hei.PojaGenerated;
+import com.school.hei.datastructure.ListGrouper;
+import com.school.hei.endpoint.event.model.PojaEvent;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;

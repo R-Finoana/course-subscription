@@ -1,10 +1,10 @@
-package com.com.school.endpoint.event.consumer;
+package com.school.hei.endpoint.event.consumer;
 
 import static java.util.stream.Collectors.toList;
 
-import com.com.school.PojaGenerated;
-import com.com.school.concurrency.Workers;
-import com.com.school.endpoint.event.consumer.model.ConsumableEvent;
+import com.school.hei.PojaGenerated;
+import com.school.hei.concurrency.Workers;
+import com.school.hei.endpoint.event.consumer.model.ConsumableEvent;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.function.Consumer;

@@ -1,7 +1,7 @@
-package com.com.school.repository;
+package com.school.hei.repository;
 
-import com.com.school.PojaGenerated;
-import com.com.school.repository.model.DummyUuid;
+import com.school.hei.PojaGenerated;
+import com.school.hei.repository.model.DummyUuid;
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

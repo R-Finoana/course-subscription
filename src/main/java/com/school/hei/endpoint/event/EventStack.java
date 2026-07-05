@@ -1,8 +1,8 @@
-package com.com.school.endpoint.event;
+package com.school.hei.endpoint.event;
 
 import static java.lang.System.getenv;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import lombok.Getter;
 
 @PojaGenerated

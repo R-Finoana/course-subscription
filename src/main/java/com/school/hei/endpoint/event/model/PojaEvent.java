@@ -1,10 +1,10 @@
-package com.com.school.endpoint.event.model;
+package com.school.hei.endpoint.event.model;
 
-import static com.com.school.endpoint.event.EventStack.EVENT_STACK_1;
+import static com.school.hei.endpoint.event.EventStack.EVENT_STACK_1;
 import static java.lang.Math.random;
 
-import com.com.school.PojaGenerated;
-import com.com.school.endpoint.event.EventStack;
+import com.school.hei.PojaGenerated;
+import com.school.hei.endpoint.event.EventStack;
 import java.io.Serializable;
 import java.time.Duration;
 import lombok.Getter;
@@ -39,6 +39,6 @@ public abstract class PojaEvent implements Serializable {
   }
 
   public String getEventSource() {
-    return "com.com.school.event1";
+    return "com.school.hei.event1";
   }
 }

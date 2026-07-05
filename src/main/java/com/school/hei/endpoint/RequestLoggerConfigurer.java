@@ -1,12 +1,12 @@
-package com.com.school.endpoint;
+package com.school.hei.endpoint;
 
-import static com.com.school.concurrency.ThreadRenamer.renameFrontalThread;
-import static com.com.school.concurrency.ThreadRenamer.renameThread;
+import static com.school.hei.concurrency.ThreadRenamer.renameFrontalThread;
+import static com.school.hei.concurrency.ThreadRenamer.renameThread;
 import static java.lang.System.currentTimeMillis;
 import static java.lang.Thread.currentThread;
 import static java.util.stream.Collectors.joining;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.AllArgsConstructor;

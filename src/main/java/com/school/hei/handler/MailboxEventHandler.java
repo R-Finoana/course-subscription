@@ -1,4 +1,4 @@
-package com.com.school.handler;
+package com.school.hei.handler;
 
 import static com.school.hei.concurrency.ThreadRenamer.renameWorkerThread;
 import static java.lang.Runtime.getRuntime;
@@ -9,13 +9,13 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.SQSEvent;
 import com.amazonaws.services.lambda.runtime.events.SQSEvent.SQSMessage;
-import com.com.school.PojaApplication;
-import com.com.school.PojaGenerated;
-import com.com.school.endpoint.EndpointConf;
-import com.com.school.endpoint.event.EventConf;
-import com.com.school.endpoint.event.consumer.model.ConsumableEventTyper;
+import com.school.hei.PojaApplication;
+import com.school.hei.PojaGenerated;
+import com.school.hei.endpoint.EndpointConf;
+import com.school.hei.endpoint.event.EventConf;
 import com.school.hei.endpoint.event.consumer.EventConsumer;
 import com.school.hei.endpoint.event.consumer.model.ConsumableEvent;
+import com.school.hei.endpoint.event.consumer.model.ConsumableEventTyper;
 import com.zaxxer.hikari.HikariDataSource;
 import java.util.List;
 import java.util.Map;

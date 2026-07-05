@@ -1,6 +1,6 @@
-package com.com.school.endpoint.event.consumer.model;
+package com.school.hei.endpoint.event.consumer.model;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

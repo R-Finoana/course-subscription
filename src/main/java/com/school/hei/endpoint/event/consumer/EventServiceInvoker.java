@@ -1,7 +1,7 @@
-package com.com.school.endpoint.event.consumer;
+package com.school.hei.endpoint.event.consumer;
 
-import com.com.school.PojaGenerated;
-import com.com.school.endpoint.event.consumer.model.TypedEvent;
+import com.school.hei.PojaGenerated;
+import com.school.hei.endpoint.event.consumer.model.TypedEvent;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.function.Consumer;
@@ -25,7 +25,7 @@ public class EventServiceInvoker implements Consumer<TypedEvent> {
   @Override
   public void accept(TypedEvent typedEvent) {
     var typeName = typedEvent.typeName();
-    var eventClasses = getAllClasses("com.com.school.endpoint.event.model");
+    var eventClasses = getAllClasses("com.school.hei.endpoint.event.model");
     for (var clazz : eventClasses) {
       if (clazz.getTypeName().equals(typeName)) {
         var serviceClazz = Class.forName(getEventService(typeName));
@@ -40,7 +40,7 @@ public class EventServiceInvoker implements Consumer<TypedEvent> {
 
   private String getEventService(String eventClazzName) {
     var typeNameAsArray = eventClazzName.split("\\.");
-    return "com.com.school.service.event."
+    return "com.school.hei.service.event."
         + typeNameAsArray[typeNameAsArray.length - 1]
         + "Service";
   }

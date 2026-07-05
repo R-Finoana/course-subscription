@@ -1,4 +1,4 @@
-package com.com.school;
+package com.school.hei;
 
 import static java.lang.annotation.ElementType.CONSTRUCTOR;
 import static java.lang.annotation.ElementType.METHOD;

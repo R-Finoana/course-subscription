@@ -1,8 +1,8 @@
-package com.com.school.endpoint.rest.controller.health;
+package com.school.hei.endpoint.rest.controller.health;
 
-import com.com.school.PojaGenerated;
-import com.com.school.repository.DummyRepository;
-import com.com.school.repository.DummyUuidRepository;
+import com.school.hei.PojaGenerated;
+import com.school.hei.repository.DummyRepository;
+import com.school.hei.repository.DummyUuidRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
