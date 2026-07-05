@@ -20,10 +20,10 @@ public class SubscriptionService {
     var user = userRepository.findById(userId).orElseThrow();
     var course = courseRepository.findById(courseId).orElseThrow();
 
-    boolean alreadySubscribed = user.getCourses().stream()
-                    .anyMatch(c -> c.getCourse_id().equals(courseId));
+    boolean alreadySubscribed =
+        user.getCourses().stream().anyMatch(c -> c.getCourse_id().equals(courseId));
     if (alreadySubscribed) {
-        throw new RuntimeException("User " + userId + " is already subscribed to course " + courseId);
+      throw new RuntimeException("User " + userId + " is already subscribed to course " + courseId);
     }
 
     user.getCourses().add(course);
