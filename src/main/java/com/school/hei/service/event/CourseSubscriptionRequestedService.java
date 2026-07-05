@@ -24,8 +24,8 @@ public class CourseSubscriptionRequestedService implements Consumer<CourseSubscr
             recipientAddress,
             List.of(),
             List.of(),
-            "Confirmation d'inscription",
-            "Vous êtes inscrits au cours: " + courseSubscription.getCourseTitle(),
+            "Subscription confirmation",
+            "You are subscribed to the course: " + courseSubscription.getCourseTitle(),
             List.of()));
   }
 }
