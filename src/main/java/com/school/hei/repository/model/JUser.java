@@ -1,4 +1,4 @@
-package com.school.hei.repositories.model;
+package com.school.hei.repository.model;
 
 import jakarta.persistence.*;
 import java.util.List;
@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Table(name = "user")
 public class JUser {
-  @GeneratedValue private UUID id;
+  @Id @GeneratedValue private UUID id;
 
   @Column(length = 200)
   private String first_name;
