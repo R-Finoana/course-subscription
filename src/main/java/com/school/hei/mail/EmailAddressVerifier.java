@@ -1,6 +1,6 @@
-package com.com.school.mail;
+package com.school.hei.mail;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import jakarta.mail.internet.InternetAddress;
 import java.util.function.Consumer;
 import lombok.AllArgsConstructor;

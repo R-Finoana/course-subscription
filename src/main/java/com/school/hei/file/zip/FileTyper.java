@@ -1,8 +1,8 @@
-package com.com.school.file.zip;
+package com.school.hei.file.zip;
 
 import static org.springframework.http.MediaType.parseMediaType;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import java.io.File;
 import java.util.function.Function;
 import lombok.SneakyThrows;
