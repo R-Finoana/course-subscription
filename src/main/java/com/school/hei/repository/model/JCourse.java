@@ -19,10 +19,8 @@ public class JCourse {
   @Column(nullable = false, unique = true)
   private String title;
 
-  @Column(nullable = false)
   private Instant start;
 
-  @Column(nullable = false)
   private Instant end;
 
   @OneToMany(mappedBy = "course")
