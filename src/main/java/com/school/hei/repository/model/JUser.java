@@ -26,4 +26,7 @@ public class JUser {
 
   @Column(length = 200, unique = true)
   private String email;
+
+  @OneToMany(mappedBy = "user")
+  private List<JSubscription> subscriptions;
 }

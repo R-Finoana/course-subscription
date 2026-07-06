@@ -2,6 +2,7 @@ package com.school.hei.repository.model;
 
 import jakarta.persistence.*;
 import java.time.Instant;
+import java.util.List;
 import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,4 +24,7 @@ public class JCourse {
 
   @Column(nullable = false)
   private Instant end;
+
+  @OneToMany(mappedBy = "course")
+  private List<JSubscription> subscriptions;
 }
