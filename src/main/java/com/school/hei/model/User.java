@@ -1,6 +1,5 @@
 package com.school.hei.model;
 
-import java.util.List;
 import java.util.UUID;
 import lombok.*;
 
@@ -15,5 +14,4 @@ public class User {
   private String last_name;
   private String username;
   private String email;
-  private List<Course> courses;
 }
