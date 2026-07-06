@@ -1,4 +1,4 @@
-package com.com.school;
+package com.school.hei;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

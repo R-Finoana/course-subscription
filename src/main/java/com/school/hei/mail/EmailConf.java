@@ -1,6 +1,6 @@
-package com.com.school.mail;
+package com.school.hei.mail;
 
-import com.com.school.PojaGenerated;
+import com.school.hei.PojaGenerated;
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

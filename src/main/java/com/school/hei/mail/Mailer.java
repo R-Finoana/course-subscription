@@ -1,11 +1,11 @@
-package com.com.school.mail;
+package com.school.hei.mail;
 
 import static jakarta.mail.Message.RecipientType.BCC;
 import static jakarta.mail.Message.RecipientType.CC;
 import static jakarta.mail.Message.RecipientType.TO;
 
-import com.com.school.PojaGenerated;
-import com.com.school.file.zip.FileTyper;
+import com.school.hei.PojaGenerated;
+import com.school.hei.file.zip.FileTyper;
 import jakarta.activation.DataHandler;
 import jakarta.activation.DataSource;
 import jakarta.mail.MessagingException;

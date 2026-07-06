@@ -1,10 +1,10 @@
-package com.com.school.endpoint;
+package com.school.hei.endpoint;
 
 import static com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES;
 import static com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS;
 
-import com.com.school.PojaGenerated;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.school.hei.PojaGenerated;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;

@@ -1,11 +1,11 @@
-package com.com.school.endpoint.rest.controller.health;
+package com.school.hei.endpoint.rest.controller.health;
 
-import static com.com.school.endpoint.rest.controller.health.PingController.OK;
+import static com.school.hei.endpoint.rest.controller.health.PingController.OK;
 import static java.io.File.createTempFile;
 
-import com.com.school.PojaGenerated;
-import com.com.school.mail.Email;
-import com.com.school.mail.Mailer;
+import com.school.hei.PojaGenerated;
+import com.school.hei.mail.Email;
+import com.school.hei.mail.Mailer;
 import jakarta.mail.internet.AddressException;
 import jakarta.mail.internet.InternetAddress;
 import java.io.IOException;
