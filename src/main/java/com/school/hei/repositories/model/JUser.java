@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Table(name = "user")
 public class JUser {
-  @GeneratedValue private UUID id;
+  @GeneratedValue UUID id;
 
   @Column(length = 200)
   private String first_name;
@@ -24,7 +24,7 @@ public class JUser {
   @Column(length = 200, unique = true)
   private String username;
 
-  @Column(length = 200,  unique = true)
+  @Column(length = 200, unique = true)
   private String email;
 
   @ManyToMany
