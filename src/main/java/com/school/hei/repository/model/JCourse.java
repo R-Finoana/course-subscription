@@ -23,6 +23,7 @@ public class JCourse {
 
   private Instant start;
 
+  @Column(name = "\"end\"", nullable = false)
   private Instant end;
 
   @OneToMany(mappedBy = "course")
