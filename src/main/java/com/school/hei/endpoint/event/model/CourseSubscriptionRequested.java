@@ -1,8 +1,7 @@
 package com.school.hei.endpoint.event.model;
 
-import java.time.Duration;
-
 import com.school.hei.model.Subscription;
+import java.time.Duration;
 import lombok.*;
 
 @NoArgsConstructor
