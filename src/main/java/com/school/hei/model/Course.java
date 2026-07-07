@@ -6,8 +6,6 @@ import java.util.UUID;
 import lombok.*;
 
 @Data
-@EqualsAndHashCode(callSuper = false)
-@ToString
 @Builder
 @AllArgsConstructor
 public class Course {

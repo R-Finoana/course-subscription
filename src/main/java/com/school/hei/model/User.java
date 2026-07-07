@@ -4,8 +4,6 @@ import java.util.UUID;
 import lombok.*;
 
 @Data
-@EqualsAndHashCode(callSuper = false)
-@ToString
 @AllArgsConstructor
 @Builder
 public class User {
