@@ -9,9 +9,9 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class User {
-  private UUID id_member;
-  private String first_name;
-  private String last_name;
+  private UUID id;
+  private String firstName;
+  private String lastName;
   private String username;
   private String email;
 }

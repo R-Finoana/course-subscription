@@ -1,6 +1,7 @@
 package com.school.hei.model;
 
 import java.time.Instant;
+import java.util.List;
 import java.util.UUID;
 import lombok.*;
 
@@ -10,8 +11,9 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 public class Course {
-  private UUID course_id;
-  private String name;
+  private UUID id;
+  private String title;
   private Instant startDate;
   private Instant endDate;
+  private List<Subscription> subscriptions;
 }
