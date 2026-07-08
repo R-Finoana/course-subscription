@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import java.util.List;
 import java.util.UUID;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,7 +12,8 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "user")
+@Builder
+@Table(name = "\"user\"")
 public class JUser {
   @Id @GeneratedValue private UUID id;
 
@@ -27,7 +29,6 @@ public class JUser {
   @Column(length = 200, unique = true)
   private String email;
 
-  @ManyToMany
-  @JoinTable(name = "course", joinColumns = @JoinColumn(name = "course_id"))
-  private List<JCourse> courses;
+  @OneToMany(mappedBy = "user")
+  private List<JSubscription> subscriptions;
 }

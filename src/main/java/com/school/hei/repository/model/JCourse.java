@@ -2,8 +2,10 @@ package com.school.hei.repository.model;
 
 import jakarta.persistence.*;
 import java.time.Instant;
+import java.util.List;
 import java.util.UUID;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,6 +13,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 @Table(name = "course")
 public class JCourse {
   @Id @GeneratedValue private UUID id;
@@ -18,9 +21,11 @@ public class JCourse {
   @Column(nullable = false, unique = true)
   private String title;
 
-  @Column(nullable = false)
   private Instant start;
 
-  @Column(nullable = false)
+  @Column(name = "\"end\"", nullable = false)
   private Instant end;
+
+  @OneToMany(mappedBy = "course")
+  private List<JSubscription> subscriptions;
 }

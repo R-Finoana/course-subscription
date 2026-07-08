@@ -1,5 +1,6 @@
 package com.school.hei.endpoint.event.model;
 
+import com.school.hei.model.Subscription;
 import java.time.Duration;
 import lombok.*;
 
@@ -10,8 +11,7 @@ import lombok.*;
 @EqualsAndHashCode(callSuper = false)
 @ToString
 public class CourseSubscriptionRequested extends PojaEvent {
-  private String to;
-  private String courseTitle;
+  private Subscription subscription;
 
   @Override
   public Duration maxConsumerDuration() {
